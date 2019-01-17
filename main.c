@@ -6,12 +6,13 @@ int index = 0;
 int main(){
 
     printf("jinruminganciguanlixitong\n");
+    
     while(1){
-       printf("tianjiayigeminganci\n");
-       printf("shanchuyiduanminganci\n");
-       printf("xianshisuoyouminganci\n");
-       printf("tianhuanminganci\n");
-       printf("tuichu\n");
+       printf("1--tianjiayigeminganci\n");
+       printf("2--shanchuyiduanminganci\n");
+       printf("3--xianshisuoyouminganci\n");
+       printf("4--tianhuanminganci\n");
+       printf("5--tuichu\n");
        
        printf("qingshuruxiangyingdegongnengbianhao\n");
        int code;
@@ -54,7 +55,8 @@ int main(){
            
        }
         if(code == 5){
-           
+           printf("tuichuchenggong\n");
+           break;
        }
 
 
