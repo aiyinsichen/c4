@@ -41,7 +41,14 @@ int main(){
            scanf("%c",&x);
         }
         if(code == 3){
-           
+           printf("xianshisuoyouyijingtianjiademinganzifu\n");
+            for (int i = 0; i < index; i++){
+                scanf("%c\n", arr[i]);
+            }
+            printf("xianshichenggong,dianjihuichejixu\n");
+            char x;
+            scanf("%c", &x);
+            scanf("%c", &x);
        }
         if(code == 4){
            
